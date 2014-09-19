@@ -1,0 +1,34 @@
+<div class="row">
+	<div class="panel panel-primary">
+	  <div class="panel-heading">Rule
+	  	<a href="#" class="pull-right remove">
+	  		<span class="glyphicon glyphicon-minus"></span>
+	  	</a>
+	  </div>
+	  <ul class="list-group">
+	  	<li class="list-group-item">
+	  		<div class="input-group">
+	  			<select name="method">
+	  				<option value="get" selected="true">GET</option>
+	  				<option value="post">POST</option>
+	  				<option value="put">PUT</option>
+	  				<option value="delete">DELETE</option>
+	  			</select>
+		    </div>
+	  	</li>
+	    <li class="list-group-item">
+	    	Request
+	    	<div class="form-group">
+	    		<input type="text" class="form-control" name="uri" placeholder="/checkout">
+		    </div>
+	    </li>
+	    <li class="list-group-item">
+	    	Response
+	    	<div class="form-group">
+	    		<textarea class="form-control" name="text" placeholder="content"></textarea>
+	    		<!-- <input type="text" class="form-control" name="text" placeholder="content"> -->
+		    </div>
+	    </li>
+	  </ul>
+	</div>
+</div>
