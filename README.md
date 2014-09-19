@@ -23,3 +23,7 @@ $ open builds/moco-designer/osx/moco-designer.app
 ```
 
 to launch the app.
+
+#### It's not working
+
+![moco service designer](https://raw.githubusercontent.com/abruzzi/moco-service-designer/master/moco-service-designer-resized.png)
