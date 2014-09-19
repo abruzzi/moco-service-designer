@@ -1,0 +1,10 @@
+{
+  "name": "moco-designer",
+  "version": "0.1.0",
+  "main": "index.html",
+  "window": {
+    "toolbar": false,
+    "width": 920,
+    "height": 700
+  }
+}

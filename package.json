@@ -1,0 +1,23 @@
+{
+  "name": "moco-designer",
+  "version": "0.1.0",
+  "description": "For design a moco server in a few minutes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/abruzzi/moco-service-designer",
+  "author": {
+    "name": "Juntao Qiu",
+    "url": "http://icodeit.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:abruzzi/moco-service-designer.git"
+  },  
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-node-webkit-builder": "~0.2.3"
+  }
+}

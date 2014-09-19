@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Moco Designer</title>
+
+    <link href="style/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style/style.css" rel="stylesheet">
+  </head>
+  <body>
+  	<div class="page-header">
+  		<h1>Moco Server Designer <small>Make it easier</small></h1>
+	</div>
+
+    <div class="row">
+    	<div class="col-lg-12 col-md-12">
+    		<a href="#" class="pull-right">
+    			<span class="glyphicon glyphicon-plus"></span>
+    		</a>
+    	</div>
+    </div>
+
+
+    <div class="row">
+		<div class="panel panel-primary">
+		  <div class="panel-heading">Rule
+		  	<a href="#" class="pull-right">
+		  		<span class="glyphicon glyphicon-minus"></span>
+		  	</a>
+		  </div>
+		  <ul class="list-group">
+		  	<li class="list-group-item">
+		  		<div class="input-group">
+			        <input type="radio" name="method" selected="selected"> GET
+			        <input type="radio" name="method"> POST
+			        <input type="radio" name="method"> PUT
+			        <input type="radio" name="method"> DELETE 
+			    </div>
+		  	</li>
+		    <li class="list-group-item">
+		    	Request
+		    	<div class="form-group">
+		    		<input type="text" class="form-control" placeholder="/checkout">
+			    </div>
+		    </li>
+		    <li class="list-group-item">
+		    	Response
+		    	<div class="form-group">
+		    		<input type="text" class="form-control" placeholder="hello, world">
+			    </div>
+		    </li>
+		  </ul>
+		</div>
+    </div>
+	
+	<div class="row">
+    	<div class="col-lg-12 col-md-12">
+    		<a href="#" class="pull-right">
+    			<button id="export" class="btn btn-primary">Export Config</button>
+    		</a>
+    	</div>
+    </div>
+
+	<input id="save" type="file" nwsaveas style="display:none" accept="text/*"/>
+	<textarea id="config" style="display:none">{}</textarea>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="scripts/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="style/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
