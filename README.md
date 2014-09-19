@@ -22,8 +22,10 @@ Command `grunt` will try to build the designer from source, and pack it under fo
 $ open builds/moco-designer/osx/moco-designer.app
 ```
 
-to launch the app.
+to launch the app.  or simply run the `launch.sh` script to do the same thing.  
 
-#### It's not working
+#### It's working now
 
 ![moco service designer](https://raw.githubusercontent.com/abruzzi/moco-service-designer/master/moco-service-designer-resized.png)
+
+Click the `plus` to add a new rule, and click the `minus` on the right top of rule section will remove the rule.
